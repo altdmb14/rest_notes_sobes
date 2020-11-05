@@ -13,7 +13,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Service
 public class NoteServiceImpl implements NoteService {
     private final NoteRepo noteRepo;
-    private static final AtomicInteger NOTE_ID = new AtomicInteger();
 
     @Autowired
     public NoteServiceImpl(NoteRepo noteRepo) {
