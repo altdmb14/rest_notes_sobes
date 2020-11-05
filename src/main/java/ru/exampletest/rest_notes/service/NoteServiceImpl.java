@@ -6,9 +6,7 @@ import ru.exampletest.rest_notes.model.Note;
 import ru.exampletest.rest_notes.repo.NoteRepo;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 @Service
 public class NoteServiceImpl implements NoteService {
